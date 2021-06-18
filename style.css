@@ -69,10 +69,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
 }
 
 .bg-repeat {
@@ -96,6 +96,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
+
     background-size: 280px 280px;
 }
 
@@ -338,7 +339,7 @@ a:hover {
 }
 
 .navbar-toggle:hover {
-    background: transparent!important;
+    background: transparent;
 }
 
 .navbar-toggle .icon-bar {
@@ -365,7 +366,7 @@ h1 {
 }
 
 #form_1 {
-    background-color: #ccc;
+    background-color: #FFF3A8;
     padding: 20px 0 20px;
     width: 80%;
     margin: 0 10%;
@@ -401,6 +402,7 @@ h1 {
 .t-area {
     margin: 0 10px;
 }
+
 input:focus {
     font-size: 18px;
     font-weight: 600;
@@ -420,15 +422,18 @@ input:not(:valid) {
 }
 .obligatoire {
     color:red;
+    font-size: 20px;
+    font-weight: 900;
 }
 
+.adresse {
+    margin: 0 25%;
+}
 /****** medias queries ****/
 
 /*****   petits ecrans***/
 
 @media (min-width: 768px) {
-
-
 
     .site-navigation {
         position: absolute;
@@ -477,7 +482,7 @@ input:not(:valid) {
 }
 
 .nav > li > .dropdown a {
-    background: none!important;
+    background: none;
     display: block;
     padding: 14px 15px;
 }
@@ -504,7 +509,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0!important;
+    margin: 6px -5px 0 0;
     float: right;
 }
 
@@ -840,7 +845,6 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px;
@@ -930,16 +934,17 @@ h3 {
 }
 
 .tc-white {
-    color: #fff!important;
+    color: #fff;
     
 }
 .btn-atomic-tangerine {
-    background: #BE7654;
-    color: #FFFFFF!important;
+    background: #8A4038;
+    color: #FFFFFF;
     font-size: 1.8rem;
     width: 60%;
-    /*margin-left:20%;*/
     margin: 22px auto;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1261,3 +1266,4 @@ blockquote {
 .mail a:hover {
     text-decoration: underline;
 }
+
