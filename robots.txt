@@ -1,0 +1,9 @@
+# Nom du client automatique: googlebot
+User-agent:Googlebot
+
+User-agent: AdsBot-Google
+
+# tous les robots sauf adsbot
+User-agent: *
+
+Sitemap: https://https://daguelourabahprojet4.000webhostapp.com/sitemap.xml
