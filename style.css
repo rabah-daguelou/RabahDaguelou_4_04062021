@@ -972,3 +972,10 @@ nav li a:hover {
     text-shadow: 1px 1px 2px red;
     text-decoration: underline;
 }
+.github {
+    color: #fff;
+    margin-left: 30%;
+    text-shadow: 1px 1px 3px black;
+    text-decoration: underline;
+    font-weight: 600;
+}
